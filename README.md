@@ -8,6 +8,8 @@ Input: Config files from various Palo Alto firewalls <br>
 Output: Comma Separated output as <br>ConfigFile Name,Comment,Interface,RouteName,NextHopIP
 
 
+USE CASE:
+To find out all default route next-hops on our Palo Alto firewalls so that they can be added as a host in our central monitoring platform. The monitoring system will ping it from over the internet and confirm health of the ISP circuit.
 
 Example:
 ```
