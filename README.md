@@ -11,9 +11,9 @@ Output: Comma Separated output of ConfigFile Name,Comment,Interface,RouteName,Ne
 
 Example:
 
-[user@vm1 INET_PA_Route]$ ./get_ips_lids_palo.py 
-FirewallName,Comment,Interface,RouteName,NextHopIP
-fw1.conf,"Internet",ethernet1/2,"Default Route",1.1.1.1
-fw2.conf,"Internet",ethernet1/2,Default-0.0.0.0-Primary,2.2.2.2
-fw3.conf,Internet,ethernet1/2.666,Default,3.3.3.3
-fw4.conf,None,None,Default,4.4.4.4
+[user@vm1 INET_PA_Route]$ ./get_ips_lids_palo.py \n
+FirewallName,Comment,Interface,RouteName,NextHopIP \n
+fw1.conf,"Internet",ethernet1/2,"Default Route",1.1.1.1 \n
+fw2.conf,"Internet",ethernet1/2,Default-0.0.0.0-Primary,2.2.2.2 \n
+fw3.conf,Internet,ethernet1/2.666,Default,3.3.3.3 \n
+fw4.conf,None,None,Default,4.4.4.4 \n
