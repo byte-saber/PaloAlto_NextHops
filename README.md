@@ -4,7 +4,7 @@ It identifies interfaces on the basis of a comment (INET in this case) that your
 Usage: Copy all config files into the CONFIGS directory and run the script after editing the comment - Replace "INET" with the comment you have for Internet interfaces.
 If no interface is found that matches the comment, or  no default route exists, value "None" is entered in the respective fields
 
-Input: Config files from various Palo Alto firewalls 
+Input: Config files from various Palo Alto firewalls <br>
 Output: Comma Separated output of ConfigFile Name,Comment,Interface,RouteName,NextHopIP
 
 
